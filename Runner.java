@@ -19,7 +19,7 @@ public class Runner {
     values.put(22.6, 445.0);
     values.put(17.2,408.0);
    
-  
+    // Calling calcM and calcB methods
     LinearRegression.calcM(values);
     LinearRegression.calcB(values);
   }
